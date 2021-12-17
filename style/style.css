@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body, html {
+    height: 100%;
+    background: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Mulish", sans-serif;
+}
+
+.stats {
+    background: #FFF;
+    height: 700px;
+    max-height: 700px;
+    width: 740px;
+    border-radius: 15px;
+    box-shadow: 2px 7px 32px -16px rgba(0, 0, 0, 0.75);
+}
+
+.title {
+    font-weight: 800;
+    font-size: 26px;
+    color: #1C1F2A;
+    padding-top: 74px;
+    padding-left: 58px;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    color: #1C1F2A;
+    padding-top: 13px;
+    padding-left: 58px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card:nth-child(1) {
+    background: linear-gradient(to bottom right, #FFF1F1, #ECFFFE);
+}
+
+.card:nth-child(2) {
+    background: linear-gradient(to bottom right, #FFF1F1, #ECFFFE);
+}
+
+.card {
+    width: 190px;
+    height: 270px;
+    background: linear-gradient(to bottom right, #F1F7FF, #FFECEC);
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+.card:hover {
+    user-select: none;
+}
+
+.card .card-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #1C1F2A;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.card .card-value {
+    font-weight: 600;
+    font-size: 40px;
+    color: #1c1f2a;
+    padding-top: 89px;
+    padding-left: 40px;
+    display: block;
+}
+
+.card .card-description {
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 40px;
+    margin-bottom: 55px;
+    color: rgba(28, 31, 42, .5);
+}
+
+.button {
+    width: 210px;
+    height: 70px;
+    background-color: #1C1F2A;
+    color: #ffffff;
+    margin-left: 58px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    transition: 300ms background-color;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: #15181f;
+}
+
